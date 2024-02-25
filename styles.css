@@ -81,8 +81,8 @@
     text-justify: inter-word;
 }
 
-.button button{
-    padding: 10px 20px;
+.btn{
+    padding: 8px 16px;
     border-radius: 15px;
     color: white;
     background-color: dodgerblue;
@@ -90,6 +90,7 @@
     font-size: 15px;
     margin: 0 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .moreabout{
@@ -104,10 +105,10 @@
     margin-top: 15px;
 }
 
-.button button:hover{
+.btn:hover{
     background-color: white;
     color: dodgerblue;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .contactform{
@@ -128,7 +129,7 @@
 }
 
 .contactform form div input{
-    width: 16vw;
+    width: 25vw;
     border-radius: 5px;
     margin: 6px 0 0;
     padding: 3px;
@@ -150,4 +151,30 @@
 #form-check input{
     width: 24px;
     margin: 3px 0;
+}
+
+.btn-sm{
+    font-size: 15px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 20px;
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
 }
