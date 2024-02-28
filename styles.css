@@ -99,10 +99,12 @@
     text-align: justify;
     text-justify: inter-word;
     font-family: 'Fira Sans', sans-serif;
+    margin-left: 11px;
 }
 
 .button{
     margin-top: 15px;
+    margin-left: 13px;
 }
 
 .btn:hover{
